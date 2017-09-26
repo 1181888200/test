@@ -20,3 +20,7 @@ git push -u lwl master
 #我是本地修改文件上传的
 
 #我在本地又改了一次
+
+git diff #查看冲突的文件
+git status #查看文件状态
+git pull lwl master #拉取远程库内容 前提是要先关联起来
